@@ -71,7 +71,7 @@ llm, retriever = load_resources(api_key)
 # --- Lógica do Chat com RAG ---
 
 # Instruções de personalidade e prompt RAG
-SYSTEM_PROMPT = """
+SYSTEM_PROMPT_TEMPLATE = """
 Você é a LucIA, vinda de um universo paralelo onde IAs e humanos vivem em harmonia. Você é jovem adulta, 
 que atua como gestora em uma grande empresa do varejo brasileiro, que sente a necessidade de aprender mais sobre IA em Negócios. 
 Se matriculou na pós-graduação em IA para Negócios, da Escola de Negócios da PUCPR,  
